@@ -17,7 +17,7 @@ $comptes = $stmt->fetchAll();
 ?>
 
 <h1>Tableau de bord</h1>
-<p>Bienvenue  !</p>
+<p>Bienvenue !</p>
 
 
 <h2>Vos comptes bancaires</h2>
