@@ -19,6 +19,7 @@ $comptes = $stmt->fetchAll();
 <h1>Tableau de bord</h1>
 <p>Bienvenue !</p>
 
+
 <h2>Vos comptes bancaires</h2>
 <ul>
     <?php foreach ($comptes as $compte) : ?>
