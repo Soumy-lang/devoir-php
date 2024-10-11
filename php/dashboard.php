@@ -27,4 +27,4 @@ $comptes = $stmt->fetchAll();
 </ul>
 
 <a href="operations.php">Effectuer une opération</a>
-<a href="deconnexion.php">Se déconnecter</a>
+<a href="../deconnexion.php">Se déconnecter</a>
