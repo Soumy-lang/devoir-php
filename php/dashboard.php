@@ -21,6 +21,7 @@ $comptes = $stmt->fetchAll();
 
 <h2>Vos comptes bancaires</h2>
 <ul>
+    
     <?php foreach ($comptes as $compte) : ?>
         <li><?= $compte['numeroCompte'] ?> - Solde : <?= $compte['solde'] ?> EUR</li>
     <?php endforeach; ?>
