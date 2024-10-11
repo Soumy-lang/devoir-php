@@ -24,6 +24,7 @@ $comptes = $stmt->fetchAll();
     <?php foreach ($comptes as $compte) : ?>
         <li><?= $compte['numeroCompte'] ?> - Solde : <?= $compte['solde'] ?> EUR</li>
     <?php endforeach; ?>
+    
 </ul>
 
 <a href="operations.php">Effectuer une opération</a>
